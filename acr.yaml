@@ -26,4 +26,4 @@ jobs:
           az deployment group create `
             --resource-group $RESOURCE_GROUP `
             --template-file './acrbicep.bicep' `
-            --parameters acrName=$ACR_NAME location=$LOCATION sku='Basic'
+            --parameters acrName=$ACR_NAME location=$LOCATION sku='Premium'

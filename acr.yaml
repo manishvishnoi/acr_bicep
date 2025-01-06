@@ -20,7 +20,7 @@ jobs:
           # Variables
           $ACR_NAME='axwaytest221'       # Must be globally unique
           $RESOURCE_GROUP='RG-mavishnoi'
-          $LOCATION='westeurope'
+          $LOCATION='swedencentral'
 
           # Deploy Bicep
           az deployment group create `

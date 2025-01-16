@@ -23,7 +23,7 @@ resource privateEndpoint 'Microsoft.Network/privateEndpoints@2023-05-01' = {
   location: location
   properties: {
     subnet: {
-      id: resourceId('Microsoft.Network/virtualNetworks/subnets', 'Test444', 'Test444')
+      id: resourceId('Microsoft.Network/virtualNetworks/subnets', 'Test', 'Test')
     }
     privateLinkServiceConnections: [
       {
